@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3A367">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/treassuremap_1"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnBeach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="340dp"
+            android:background="#00ff0000"
+            android:text="해변이미지"
+            android:textColor="#03A9F4"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnDesrt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="260dp"
+            android:background="#00ff0000"
+            android:text="사막 이미지"
+            android:textColor="#000000"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:background="#00ff0000"
+            android:text="되돌아가기"
+            android:textColor="#F44336"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnForest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="180dp"
+            android:background="#00ff0000"
+            android:text="숲 이미지"
+            android:textColor="#055308"
+            app:backgroundTint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="Treasuere Map"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="570dp"
+            android:text="Where do you want to go?"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".AlarmActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="550dp"
+            app:srcCompat="@drawable/sti2_1" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="149dp"
+            android:layout_height="91dp"
+            app:srcCompat="@drawable/sti1__1" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="10dp"
+            android:background="#00ff0000"
+            app:srcCompat="@drawable/sti1" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="173dp"
+            android:layout_height="122dp"
+            android:layout_marginTop="550dp"
+            app:srcCompat="@drawable/sti2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textColor="#513306"
+            android:textSize="24sp" />
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="367dp"
+            android:layout_height="352dp"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:background="#00ff0000"
+            android:headerBackground="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btntimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:text="Timer"
+                android:textColor="#4A2F06" />
+
+            <Button
+                android:id="@+id/btnselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:gravity="center_horizontal"
+                android:text="music select"
+                android:textColor="#4A2F06" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/btnStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:text="START"
+                android:textColor="#4A2F06" />
+
+            <Button
+                android:id="@+id/btnStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00ff0000"
+                android:text="STOP"
+                android:textColor="#4A2F06" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

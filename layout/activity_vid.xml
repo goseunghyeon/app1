@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F9FB">
+
+        <Button
+            android:id="@+id/btn_sample1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="170dp"
+            android:background="#00ff0000"
+            android:text="봄길"
+            android:textColor="#5A2828"
+            android:textColorLink="@color/colorAccent"
+
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_sample2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="185dp"
+            android:background="#00ff0000"
+            android:text="숲길"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_sample8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="230dp"
+            android:background="#00ff0000"
+            android:text="산과 강"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_sample3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="240dp"
+            android:background="#00ff0000"
+            android:text="제주도"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_sample4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="300dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="280dp"
+            android:background="#00ff0000"
+            android:text="비"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_sample5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="260dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="340dp"
+            android:background="#00ff0000"
+            android:text="바람"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_sample6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="290dp"
+            android:background="#00ff0000"
+            android:text="눈"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_sample7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="350dp"
+            android:background="#00ff0000"
+            android:text="사이판"
+            android:textColor="#5A2828"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="664dp"
+            app:srcCompat="@drawable/kootree" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
